@@ -41,3 +41,4 @@ while op != 5:  # repete enquanto a opção escolhida não for 5 (sair)
         print('Volte sempre')
     else:
         print('Opção inválida!')
+
