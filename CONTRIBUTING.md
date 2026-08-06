@@ -1,186 +1,287 @@
-# Contributing
+# Contributing to Python Learning Journey
 
-This is a **personal learning repository** documenting my journey in Data Engineering and Machine Learning.
+This is a **personal learning repository** documenting my journey through Gustavo Guanabara's Python Course.
 
 ## 📌 About This Repository
 
 This repo contains:
-- Learning materials from bootcamps and courses
-- Hands-on projects and exercises
-- Code samples and solutions
-- Study notes and documentation
+- Exercises and challenges from each "Mundo" (World)
+- Mini-projects and practical applications
+- Gradual progression from basics to advanced concepts
+- Code solutions with explanations
 
 ## 🤝 How to Contribute
 
 Since this is a personal learning project, contributions are not expected. However, if you have:
-- **Suggestions** for improvements
-- **Resources** to share
-- **Corrections** to any materials
+- **Suggestions** for improvements or alternative solutions
+- **Corrections** to any code or concepts
+- **Resources** that might help with learning Python
 
 Feel free to:
 1. **Open an Issue** with your feedback
 2. **Fork the repository** and submit a Pull Request
-3. **Email** your suggestions
+3. **Contact me** directly with suggestions
 
 ## 📖 How to Use This Repository
 
-### For Learning:
+### For Learning Python:
+
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/ReehCitelli/dio.git
-   cd dio
+   git clone https://github.com/ReehCitelli/python-curso-em-video.git
+   cd python-curso-em-video
    ```
 
-2. **Navigate to the module** you're interested in
+2. **Navigate by Mundo (World)**
    ```bash
-   cd 01_python
+   cd mundo1
    # or
-   cd 02_banco_de_dados
+   cd mundo2
    # or
-   cd 03_nosql
+   cd mundo3
+   # Mundo 4 coming soon!
    ```
 
-3. **Follow the README** in each module for:
-   - Module overview
-   - Learning outcomes
+3. **Follow the README** in each Mundo for:
    - Topics covered
-   - Related resources
+   - Key concepts
+   - Challenges and projects
 
-4. **Study the code** and run examples
+4. **Run the Python files**
    ```bash
    python nome_do_arquivo.py
    ```
 
-### For Reference:
-- Each module has a **README.md** with detailed explanations
-- Code files include **comments** explaining concepts
-- **Project folders** contain complete, documented solutions
+5. **Modify and experiment**
+   - Change variable values
+   - Test different inputs
+   - Break the code and fix it!
 
-## 🎓 Learning Path
-
-```
-01_python/              → Python fundamentals
-02_banco_de_dados/      → SQL, databases, modeling
-03_nosql/               → NoSQL, MongoDB, Redis
-04_etl/                 → ETL processes (coming soon)
-05_machine_learning/    → ML algorithms (coming soon)
-```
-
-## 📝 File Structure
+## 🎓 Course Structure
 
 ```
-repository/
-├── README.md           ← Start here
-├── .gitignore         ← Git configuration
-├── CONTRIBUTING.md    ← This file
+Mundo 1 (World 1): Python Basics
+├── Variáveis (Variables)
+├── Tipos de dados (Data types)
+├── Operadores (Operators)
+└── Entrada e saída (Input/Output)
+
+Mundo 2 (World 2): Control Flow
+├── Condicionais (if/elif/else)
+├── Loops (for/while)
+├── Strings e formatação
+└── Manipulação de texto
+
+Mundo 3 (World 3): Functions & Files
+├── Funções (Functions)
+├── Escopo de variáveis
+├── Arquivo e exceções
+└── Projetos integrados
+
+Mundo 4 (World 4): OOP (Coming Soon)
+├── Classes e objetos
+├── Herança
+├── Polimorfismo
+└── Encapsulamento
+```
+
+## 📁 File Organization
+
+```
+python-curso-em-video/
+├── README.md               ← Start here
+├── CONTRIBUTING.md         ← This file
+├── .gitignore
 │
-├── 01_python/
-│   ├── README.md      ← Module overview
-│   ├── *.py files     ← Code examples
-│   └── projects/      ← Practical projects
-│
-├── 02_banco_de_dados/
+├── mundo1/
 │   ├── README.md
-│   ├── *.md files     ← Concept notes
+│   ├── exercicio_01.py
+│   ├── exercicio_02.py
 │   └── ...
 │
-└── ... (other modules)
-```
-
-## 🛠️ Technologies Used
-
-- **Python 3.9+**
-- **SQL** (PostgreSQL, MySQL)
-- **Pandas, NumPy, Matplotlib**
-- **Git & GitHub**
-- **Jupyter Notebooks**
-- **MongoDB, Redis**
-
-## ⚡ Quick Start
-
-### If you're learning Python:
-```bash
-cd 01_python
-# Follow the world-by-world structure
-# Mundo 1 → Mundo 2 → Mundo 3 → Mundo 4
-```
-
-### If you're learning Databases:
-```bash
-cd 02_banco_de_dados
-# Study in order:
-# 1. conceitos_basicos.md
-# 2. sql.md
-# 3. modelagem.md
-# ... and so on
-```
-
-### If you're learning NoSQL:
-```bash
-cd 03_nosql
-# Follow the progression:
-# Introduction → MongoDB → Redis → Concepts
+├── mundo2/
+│   ├── README.md
+│   ├── exercicio_01.py
+│   └── ...
+│
+├── mundo3/
+│   ├── README.md
+│   ├── exercicio_01.py
+│   └── ...
+│
+└── projetos/
+    ├── projeto_1_calculadora.py
+    ├── projeto_2_adivinha.py
+    └── ...
 ```
 
 ## 💡 Study Tips
 
-1. **Run the code** — Don't just read it
-2. **Modify examples** — Change variables, test edge cases
-3. **Take notes** — Summarize what you learn
-4. **Build projects** — Apply concepts to real problems
-5. **Review regularly** — Reinforce learning
+1. **Don't just copy** — Type the code yourself
+2. **Understand first** — Read comments and explanations
+3. **Experiment** — Modify examples to see what happens
+4. **Challenge yourself** — Try to solve problems before looking at solutions
+5. **Review** — Come back to previous lessons regularly
+6. **Practice** — Do exercises multiple times
+
+## 🔧 Technologies Used
+
+- **Python 3.9+**
+- **VS Code or similar IDE**
+- **Git & GitHub**
 
 ## 📚 External Resources
 
-- [TOTVS Bootcamp](https://web.dio.me/track/totvs-fundamentos-de-engenharia-de-dados-e-machine-learning)
-- [Gustavo Guanabara Python Course](https://www.cursoemvideo.com/curso/python-3-mundo-2/)
-- [Python Official Docs](https://docs.python.org/3/)
-- [PostgreSQL Docs](https://www.postgresql.org/docs/)
-- [Kaggle Datasets](https://www.kaggle.com/datasets)
+- [Gustavo Guanabara's Course](https://www.cursoemvideo.com/curso/python-3-mundo-2/)
+- [Python Official Documentation](https://docs.python.org/3/)
+- [Python Tutorial - W3Schools](https://www.w3schools.com/python/)
+- [PEP 8 — Python Style Guide](https://www.python.org/dev/peps/pep-0008/)
 
-## 🐛 Issues & Suggestions
+## ❓ Common Questions
+
+### How do I run a Python file?
+```bash
+python nome_do_arquivo.py
+# or
+python3 nome_do_arquivo.py
+```
+
+### What if I get an error?
+1. Read the error message carefully
+2. Google the error (most people have had it!)
+3. Check for typos in your code
+4. Review the related lesson
+5. Ask in GitHub issues if stuck
+
+### Can I use this to learn Python?
+Yes! This repo is designed for learning. Follow the progression and practice consistently.
+
+### Should I do Mundo 4 before continuing?
+It's recommended to complete Mundo 1-3 first, then tackle OOP in Mundo 4.
+
+## 📞 Getting Help
+
+If you have questions:
+1. **Check the README** in each Mundo
+2. **Search existing issues** on this repo
+3. **Review the course video** from Guanabara
+4. **Open an issue** with your specific question
+
+## 🚀 Learning Tips
+
+### Best Practices:
+- ✅ Write clean, readable code
+- ✅ Use meaningful variable names
+- ✅ Add comments to complex logic
+- ✅ Test your code frequently
+- ✅ Review fundamentals regularly
+
+### Avoid:
+- ❌ Copy-pasting without understanding
+- ❌ Skipping exercises
+- ❌ Using overly complex solutions
+- ❌ Ignoring error messages
+- ❌ Giving up too quickly
+
+## 🎯 Project Ideas
+
+Once you complete a Mundo, try:
+
+**After Mundo 1:**
+- Simple calculator
+- Temperature converter
+- BMI calculator
+
+**After Mundo 2:**
+- Guessing game
+- Number patterns
+- Text-based menu system
+
+**After Mundo 3:**
+- File organizer
+- Text analyzer
+- Simple database
+
+**After Mundo 4:**
+- Object-oriented game
+- File manager app
+- Data management system
+
+## 📝 Code Style
+
+This repository follows:
+- **PEP 8** — Python style guide
+- **Clear variable names** — self-documenting code
+- **Comments** — for complex logic
+- **Docstrings** — for functions
+
+Example:
+```python
+def calculate_age(birth_year):
+    """
+    Calculate a person's age based on birth year.
+    
+    Args:
+        birth_year (int): The person's year of birth
+    
+    Returns:
+        int: The calculated age
+    """
+    current_year = 2026
+    age = current_year - birth_year
+    return age
+```
+
+## 🐛 Reporting Issues
 
 Found a bug or have a suggestion?
 
-1. **Check existing issues** to avoid duplicates
-2. **Describe clearly** what you found
-3. **Provide context** (file, line number, etc)
-4. **Include examples** if possible
+1. **Be specific** — What exactly is the problem?
+2. **Provide context** — Which file? Which exercise?
+3. **Include examples** — Show the error or unexpected behavior
+4. **Suggest solutions** — If you have ideas
 
 ## 📄 License
 
-This repository is for **personal learning purposes**. 
+This repository is for **personal learning purposes**.
 
 Feel free to:
 - ✅ Fork and use for your own learning
 - ✅ Reference the code in your projects
-- ✅ Share knowledge with others
+- ✅ Adapt examples for your needs
 
 Please:
-- ⚠️ Give proper credit if you use materials
-- ⚠️ Don't claim the work as entirely your own
+- ⚠️ Give credit to Gustavo Guanabara for the original course
+- ⚠️ Don't claim the repository as entirely your own creation
 
 ## 🎯 Code of Conduct
 
-When using or contributing to this repository:
+When using or contributing:
 - Be respectful and constructive
-- Focus on learning and improvement
+- Help others learn
 - Share knowledge generously
-- Help others in their learning journey
+- Focus on growth
 
-## 📞 Questions?
+## 🌟 Acknowledgments
 
-If you have questions about:
-- **How to use a module** → Check the README
-- **Understanding code** → Read the comments
-- **General feedback** → Open an issue
+**Special thanks to:**
+- **Gustavo Guanabara** — Excellent course and teaching
+- **Python Community** — For amazing documentation
+- **Everyone learning** — Keep pushing forward!
 
-## 🚀 Happy Learning!
+## 📊 Progress Tracking
 
-Remember: The goal is to learn, grow, and share knowledge. Every contribution (including corrections) helps make this repository better for everyone.
+```
+Mundo 1: ✅ Complete
+Mundo 2: ✅ Complete  
+Mundo 3: ⏳ In Progress
+Mundo 4: ⬜ Coming Soon
+```
 
 ---
 
 **Made with ❤️ by [Renata Citelli](https://github.com/ReehCitelli)**
+
+*"Learning Python, one exercise at a time"* 🐍
 
 *Last updated: August 2026*
