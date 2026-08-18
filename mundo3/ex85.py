@@ -1,4 +1,4 @@
-num = [[][]]
+num = [[], []]
 valor = 0
 for c in range(0, 8):
     valor = int(input(f'Digite o {c}º valor: '))
